@@ -1,0 +1,80 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    flex-direction: row;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+.img {
+  width: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    order: 1;
+    width: 40%;
+  }
+}
+
+.heading {
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: left;
+  }
+}
+
+.label {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.search-input {
+  padding: 5px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  outline: none;
+  border-radius: 8px;
+  color: #e4e7eb;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.no-of-letters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: #219a6f;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.count {
+  padding-left: 5px;
+}
